@@ -229,7 +229,7 @@ impl RawAttribute {
     }
 
     /// Takes ownership of this instance, and returns the value bytes.
-    pub fn get_type(self) -> AttributeType {
+    pub fn get_raw_type(self) -> AttributeType {
         self.attr_type
     }
 }
